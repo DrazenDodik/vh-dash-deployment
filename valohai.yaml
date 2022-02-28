@@ -1,0 +1,6 @@
+- endpoint:
+    name: digits
+    description: predict digits from image inputs
+    image: python:3.9
+    server-command: python app.py
+    port: 8000
